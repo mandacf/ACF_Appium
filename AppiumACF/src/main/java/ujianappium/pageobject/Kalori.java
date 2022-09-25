@@ -10,7 +10,7 @@ import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 public class Kalori {
 	
 	public AndroidDriver<MobileElement> driver;
-	private double doubExpected=0.0;	
+		
 	
 	public Kalori(AndroidDriver<MobileElement> driver) {
 		this.driver = driver;
@@ -70,12 +70,7 @@ public class Kalori {
 		btnHitung.click();
 	}
 	
-	public void PageBMIPInvalid2(String txtHitTinggi) throws InterruptedException {
-		btnHitKaloriPR.click();
-		this.txtHitTinggi.sendKeys(String.valueOf(txtHitTinggi));
-		Thread.sleep(1000);
-		btnHitung.click();
-	}
+	
 	
 	public String getTxtMsg() {
 		return txtHasil.getText();

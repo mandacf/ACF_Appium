@@ -69,11 +69,6 @@ public class RunnerTestKalori {
 		AssertJUnit.assertEquals(kalori.getTxtBeranda(), "");
 	}
 	
-	@Test(priority=4)
-	public void testInValidHitBMIP2()throws InterruptedException {
-		kalori.PageBMIPInvalid("158");
-		AssertJUnit.assertEquals(kalori.getTxtBeranda(), "");
-	}
 	
 	@AfterMethod
 	public void Close() {

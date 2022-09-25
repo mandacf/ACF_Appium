@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-23T23:29:09 ICT" name="Default suite" finished-at="2022-09-23T23:29:09 ICT" duration-ms="30">
+  <suite started-at="2022-09-24T21:44:00 ICT" name="Default suite" finished-at="2022-09-24T21:44:51 ICT" duration-ms="51142">
     <groups>
     </groups>
-    <test started-at="2022-09-23T23:29:09 ICT" name="Default test" finished-at="2022-09-23T23:29:09 ICT" duration-ms="30">
+    <test started-at="2022-09-24T21:44:00 ICT" name="Default test" finished-at="2022-09-24T21:44:51 ICT" duration-ms="51142">
+      <class name="ujianappium.runner.RunnertestPuasa">
+        <test-method is-config="true" signature="befTest()[pri:0, instance:ujianappium.runner.RunnertestPuasa@4d154ccd]" started-at="2022-09-24T21:44:00 ICT" name="befTest" finished-at="2022-09-24T21:44:15 ICT" duration-ms="14652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befTest -->
+        <test-method signature="testValidDiaryMakanan()[pri:1, instance:ujianappium.runner.RunnertestPuasa@4d154ccd]" started-at="2022-09-24T21:44:15 ICT" name="testValidDiaryMakanan" finished-at="2022-09-24T21:44:51 ICT" duration-ms="36419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidDiaryMakanan -->
+      </class> <!-- ujianappium.runner.RunnertestPuasa -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
